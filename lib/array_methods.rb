@@ -19,6 +19,16 @@ end
 
 
 def find_min_value(array)
-  min_num = array.min
-  return min_num
+  i = 0 
+  min_val = nil
+  
+  while i < array.length do
+    ele = array [i]
+    
+    if min_val == nil || min_val > ele
+      min_val = ele
+    end
+    i += 1
+  end
+  return min_val
 end
