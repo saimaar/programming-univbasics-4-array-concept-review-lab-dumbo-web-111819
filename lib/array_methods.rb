@@ -1,4 +1,3 @@
-def find_element_index(array, value_to_find)
  def find_element_index(array, value_to_find)
  i = 0
  index = 0
@@ -14,8 +13,6 @@ def find_element_index(array, value_to_find)
  return nil
 end
 
-
-end
 
 def find_max_value(array)
   i = 0
